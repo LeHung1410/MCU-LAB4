@@ -1,0 +1,10 @@
+/*
+ * scheduler.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: M S I
+ */
+
+#include "scheduler.h"
+sTasks SCH_tasks_G[SCH_MAX_TASKS];
+uint8_t current_index_task = 0;
